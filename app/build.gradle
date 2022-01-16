@@ -1,12 +1,14 @@
 plugins {
     id 'com.android.application'
+
+    id 'androidx.navigation.safeargs'
 }
 
 android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.example.filmapp"
+        applicationId "com.example.filmandroid3"
         minSdk 21
         targetSdk 31
         versionCode 1
@@ -52,4 +54,5 @@ dependencies {
 
     //Glide
     implementation 'com.github.bumptech.glide:glide:4.12.0'
+
 }
